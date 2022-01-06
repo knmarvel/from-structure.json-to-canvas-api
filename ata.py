@@ -35,7 +35,7 @@ def request_maker(title, path):
         "title": title,
         "hide_from_students": True,
         "editing_roles": "teachers",
-        "body": f"""<p><iframe id="gatsby" style="width: 100%; height: 1024px;" src="{subdomain}.kenzie.studio{path}" width="100%" height="1024px" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe></p>""",
+        "body": f"<p><iframe id='gatsby' style='width: 100%; height: 1024px;' src='{subdomain}.kenzie.studio{path}' width='100%' height='1024px' allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen'></iframe></p>",
         "published": False,
         "front_page": False,
         "locked_for_user": False,
